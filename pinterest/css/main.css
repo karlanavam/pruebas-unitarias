@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Nav bar*/
+#nav-bar {
+  padding: 10px 8px;
+  position: relative;
+}
+
+#pinterest-logo {
+  width: 4%;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+}
+
+#pinterest-logo > img {
+  width: 70%;
+  margin-left: 20px;
+}
+
+#search-bar {
+  background-color: #EFEFEF;
+  width: 70%;
+  height: 50px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-left: 30px;
+  position: relative;
+  bottom: 10px;
+}
+
+#search-bar span {
+  position: relative;
+  top: 11px;
+  left: 25px;
+  font-size: 25px;
+  color: gray;
+}
+
+#search-bar #select {
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  left: 655px;
+  position: relative;
+  top: 11px;
+}
+
+#search-bar #select img {
+  width: 1.8%;
+}
+
+#icons {
+  display: inline-block;
+  height: 50px;
+  width: 20%;
+  position: relative;
+}
+
+#icons > img {
+  width: 10%;
+  height: auto;
+  margin-left: 20%;
+}
+
+/*Hashtags menu bar*/
+.hashtags {
+  background: pink;
+  height: 100px;
+  float: left;
+  font-size: 25px;
+  font-weight: 700;
+  width: auto;
+}
